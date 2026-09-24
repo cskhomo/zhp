@@ -3,27 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Contact | Zan H Physios</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="index.html">
+                Zan H Physios
+            </a>
+
+            <div class="nav-links">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <h1>Contact</h1>
+
+        <section class="page-hero">
+            <div class="container page-hero-content">
+
+                <p class="eyebrow">Contact Zan H Physios</p>
+
+                <h1>
+                    Let's get you
+                    <span>moving.</span>
+                </h1>
+
+                <p>
+                    Have a question about our services or want to
+                    enquire about an appointment? Get in touch with
+                    the practice.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section id="contact-details" class="section">
+            <div class="container contact-grid">
+
+                <div class="contact-information">
+
+                    <div class="section-heading">
+                        <p class="eyebrow">Get in Touch</p>
+
+                        <h2>
+                            Find
+                            <span>Zan H Physios.</span>
+                        </h2>
+                    </div>
+
+                    <address class="contact-item">
+                        <h3>Practice Address</h3>
+
+                        <p>
+                            Edendale Private Clinic<br>
+                            Game Store Parking<br>
+                            191 Chief Albert Luthuli Street<br>
+                            Pietermaritzburg<br>
+                            KwaZulu-Natal
+                        </p>
+                    </address>
+
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+
+                        <p>
+                            <a href="tel:+27622970136">
+                                062 297 0136
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>Email</h3>
+
+                        <p>
+                            <a href="mailto:info@zhphysios.co.za">
+                                info@zhphysios.co.za
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>Practice Number</h3>
+
+                        <p>1074202</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form-wrapper">
+
+                    <div class="form-heading">
+                        <p class="eyebrow">Enquiry</p>
+
+                        <h2>Send us a message.</h2>
+                    </div>
+
+                    <form class="contact-form" action="#" method="post">
+
+                        <div class="form-field">
+                            <label for="name">Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                autocomplete="name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Email</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                autocomplete="email"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="phone">Phone</label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                autocomplete="tel"
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="message">Message</label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button
+                            class="button button-primary"
+                            type="submit"
+                        >
+                            Send Enquiry
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="contact-cta" class="contact-note">
+            <div class="container">
+
+                <p class="eyebrow">Zan H Physios</p>
+
+                <h2>
+                    A touch of
+                    <span>healthy living.</span>
+                </h2>
+
+                <p>
+                    Professional physiotherapy care supporting
+                    movement, recovery, and wellbeing.
+                </p>
+
+            </div>
+        </section>
+
     </main>
 
-    <footer>
-        <p>&copy; 2026</p>
-    </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
